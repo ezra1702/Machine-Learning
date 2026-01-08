@@ -211,9 +211,9 @@ Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="../tipe_data">[tipe_data] ◀ Materi Sebelumnya</a>
+    <a href="../2_tipe_data">[tipe_data] ◀ Materi Sebelumnya</a>
   </div>
   <div>
-    <a href="../operator">Materi Selanjutnya ▶ [operator]</a>
+    <a href="../4_operator">Materi Selanjutnya ▶ [operator]</a>
   </div>
 </div>

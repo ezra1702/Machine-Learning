@@ -170,4 +170,4 @@ Python bisa terhubung dengan:
 * Microcontroller (Arduino, STM32)
 
 ---
-[Materi Selanjutnya ▶ [tipe data]](../tipe_data)
+[Materi Selanjutnya ▶ [tipe data]](../2_tipe_data)

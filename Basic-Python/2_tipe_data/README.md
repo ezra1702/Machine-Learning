@@ -181,9 +181,9 @@ Klik link ini untuk mencoba kode Python dari pembahasan kali ini. [Source code](
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="../introduction">[Introduction] ◀ Materi Sebelumnya</a>
+    <a href="../1_pendahuluan">[Introduction] ◀ Materi Sebelumnya</a>
   </div>
   <div>
-    <a href="../variabel">Materi Selanjutnya ▶ [Variable]</a>
+    <a href="../3_variabel">Materi Selanjutnya ▶ [Variable]</a>
   </div>
 </div>

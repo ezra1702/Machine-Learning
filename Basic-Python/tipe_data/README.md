@@ -3,6 +3,9 @@
 # Tipe Data
 
 </center>
+<p align="center">
+  <img src="https://preview.redd.it/958mvx20z8371.jpg?auto=webp&s=4aa23a578a4b3d6440f81c5f461eeb4052a6235d">
+<p>
 
 <a id="1"><h2>Daftar Isi</h2></a>
 
@@ -175,11 +178,12 @@ alt="Data Types in Python" width="600">
 
 Klik link ini untuk mencoba kode Python dari pembahasan kali ini. [Source code](../tipe_data/tipe_data.py)
 
+
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <a href="../01_introduction">[Introduction] ◀ Materi Sebelumnya</a>
+    <a href="../introduction">[Introduction] ◀ Materi Sebelumnya</a>
   </div>
   <div>
-    <a href="../03_variable">Materi Selanjutnya ▶ [Variable]</a>
+    <a href="../variabel">Materi Selanjutnya ▶ [Variable]</a>
   </div>
 </div>

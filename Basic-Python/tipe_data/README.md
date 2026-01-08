@@ -1,5 +1,3 @@
-
-
 <center>
 
 # Tipe Data
@@ -8,175 +6,180 @@
 
 <a id="1"><h2>Daftar Isi</h2></a>
 
-- Tipe Data
-  - [Daftar Isi](#1)
-  - [Pendahuluan](#2)
-  - [String | `str`](#3)
-  - [Integer | `int`](#4)
-  - [Float | `float`](#5)
-  - [Complex | `complex`](#6)
-  - [List | `list`](#7)
-  - [Tuple | `tuple`](#8)
-  - [Set | `set`](#9)
-  - [FrozenSet | `frozenset`](#10)
-  - [Dictionary | `dict`](#11)
-  - [Bytes | `bytes`](#12)
-  - [ByteArray | `bytearray`](#13)
-  - [MemoryView | `memoryview`](#14)
+- [Pendahuluan](#2)
+- [String | `str`](#3)
+- [Integer | `int`](#4)
+- [Float | `float`](#5)
+- [Complex | `complex`](#6)
+- [List | `list`](#7)
+- [Tuple | `tuple`](#8)
+- [Set | `set`](#9)
+- [FrozenSet | `frozenset`](#10)
+- [Dictionary | `dict`](#11)
+- [Bytes | `bytes`](#12)
+- [ByteArray | `bytearray`](#13)
+- [MemoryView | `memoryview`](#14)
 - [Video penjelasan tentang tipe data](#15)
 - [Hands-On](#16)
 
 <a id="2"><h2>Pendahuluan</h2></a>
 
-Tipe data adalah klasifikasi data. Tipe data menentukan jenis sebuah variabel.
-**Variabel sendiri adalah sebuah wadah untuk menyimpan data.** Dalam penulisannya, python menganut paham `dynamic typing` yang mana dalam membuat variabel kita tidak harus menuliskan tipe datanya pula. Hal tersebut sejalan dengan tujuan python dikembangkan untuk memudahkan keterbacaan kode dan memprioritaskan pengembangan konsep dalam lebih sedikit baris kode
+<p style="text-align: justify;"><b>Tipe data</b> merupakan <b>klasifikasi data</b> yang berfungsi untuk menentukan <b>jenis variabel</b> dan <b>operasi</b> yang dapat dilakukan terhadapnya. Dengan menggunakan <b>tipe data</b> yang tepat, komputer dapat <b>menyimpan</b>, <b>mengelola</b>, dan <b>mengolah data</b> secara efisien. Beberapa contoh <b>tipe data</b> yang umum digunakan antara lain <b>integer</b>, <b>float</b>, <b>char</b>, dan <b>string</b>, yang masing-masing memiliki fungsi berbeda dalam pemrograman.</p>
 
 Beberapa tipe data dalam Python:
 
-- Berupa text
+**Berupa teks**
 
-  - <a id="3">`str`</a>
+<a id="3"><h3>String | `str`</h3></a>
 
-    Merupakan salah satu tipe data yang berupa string, berfungsi untuk menghasilkan tipe data string seperti huruf abjad atau simbol lain.
+Merupakan salah satu tipe data yang berupa string, berfungsi untuk menghasilkan tipe data string seperti huruf abjad atau simbol lain.
 
-    ```python
-    nama_saya = "franklin"
-    email_saya = "benjamin@franklin"
-    ```
+```python
+nama_saya = "Sharleen"
+email_saya = "sharleen@ub.ac.id"
+```
 
-- Berupa angka
+**Berupa angka**
 
-  - <a id="4">`int`</a>
+<a id="4"><h3>Integer | `int`</h3></a>
 
-    Merupakan salah satu tipe numerik yang sering dipakai dalam pemograman berupa bilangan bulat.
+Merupakan salah satu tipe numerik yang sering dipakai dalam pemrograman berupa bilangan bulat. Jika diberikan angka yang bukan bulat maka angka di belakang koma tidak ikut.
 
-    ```python
-    angka_saya = 25
-    tahun_lahir = 1945
-    ```
+```python
+number = 25
+idNumber = 1
+```
 
-  - <a id="5">`float`</a>
+<a id="5"><h3>Float | `float`</h3></a>
 
-    Merupakan salah satu tipe numerik yang menghasilkan berupa bilangan pecahan, sangat berguna dalam menghasilkan nilai secara detail.
+Merupakan salah satu tipe numerik yang menghasilkan bilangan pecahan, sangat berguna dalam menghasilkan nilai secara detail.
 
-    ```python
-    nilai_saya = 95.281724
-    nilai_teman = 30.25912
-    ```
+```python
+kkm = 75.0
+nilaiSaya = 100.0
+```
 
-  - <a id="6">`complex`</a>
+<a id="6"><h3>Complex | `complex`</h3></a>
 
-    Merupakan salah satu tipe data numerik yang berfungsi menghasil sebuah angka complex, contoh angka complex bisa dilihat [di sini](https://id.wikipedia.org/wiki/Bilangan_kompleks).
+Merupakan salah satu tipe data numerik yang berfungsi menghasilkan sebuah angka kompleks. Contoh angka kompleks bisa dilihat [di sini](https://id.wikipedia.org/wiki/Bilangan_kompleks).
 
-    ```python
-    angka_kompleks_saya = complex(1.5)
-    angka_teman_saya = complex(2j)
-    ```
+```python
+angka_kompleks = 12 + 1j
+angkaKompleks = complex(2j)
+```
 
-- Berupa urutan (sekuensial)
+**Berupa urutan (sekuensial)**
 
-  - <a id="7">`list`</a>
+<a id="7"><h3>List | `list`</h3></a>
 
-    Tipe data list adalah tipe data koleksi yang berisi beberapa value yang terdapat dalam satu variabel. List menggunakan kurung kotak `[ ]`.
+Tipe data list adalah tipe data koleksi yang berisi beberapa nilai yang terdapat dalam satu variabel. List menggunakan kurung kotak `[ ]` dan dapat dimodifikasi sesuai kebutuhan.
 
-    ```python
-    nama_siswa = ['woody', 'buzz', 'andy']
-    nilai_siswa = [12, 13, 14]
-    ```
+```python
+# Set list
+sharleen = ['manajemen', 22, True]
+nilai_siswa = [12, 13, 14]
+kelulusan = [True, False, True]
 
-  - <a id="8">`tuple`</a>
+# modifikasi nilai
+sharleen[0] = "ekonomi"
+```
 
-    Tipe data tuple adalah tipe data koleksi yang berisi beberap value yang terdapat dalam satu variabel. Perbedaan di antara keduanya adalah:
+<a id="8"><h3>Tuple | `tuple`</h3></a>
 
-    - tipe data tuple jika diberi value, maka tipe data tersebut tidak dapat diubah kembali.
-    - tipe data tuple menggunakan tutup kurung biasa `()`.
+Tipe data tuple adalah tipe data koleksi yang berisi beberapa nilai yang terdapat dalam satu variabel. Perbedaan di antara keduanya adalah:
 
-    ```python
-    nama_siswa = ('buzz', 'andy', 'woody')
-    nilai = (12, 13, 14)
-    ```
+- Tipe data tuple jika diberi nilai, maka tipe data tersebut tidak dapat diubah kembali.
+- Tipe data tuple menggunakan tutup kurung biasa `()`.
 
-  - <a id="9">`set`</a>
+```python
+sharleen = ('manajemen', 22, True)
+nilai_siswa = (12, 13, 14)
+kelulusan = (True, False, True)
+```
 
-    Tipe data set adalah tipe data koleksi yang elemennya dapat dirubah, tidak terurut, dan bersifat unik. Sesuai dengan namanya, tipe data set memiliki operasi matematika himpunan seperti gabungan, irisan, selisih, dan lain-lain. Set menggunakan kurung kurawal `{}`.
+<a id="9"><h3>Set | `set`</h3></a>
 
-    ```python
-    nama_siswa = {'buzz', 'andy', 'woody'}
-    nilai = {12, 13, 14}
-    ```
+Tipe data set adalah tipe data koleksi yang elemennya dapat diubah, tidak terurut, dan bersifat unik. Sesuai dengan namanya, tipe data set memiliki operasi matematika himpunan seperti gabungan, irisan, selisih, dan lain-lain. Set menggunakan kurung kurawal `{}`. Untuk modifikasi data, set dapat menggunakan metode seperti `add()` untuk menambahkan elemen, `remove()` atau `discard()` untuk menghapus elemen, serta `clear()` untuk menghapus seluruh elemen dalam set.
 
-  - <a id="10">`frozenset`</a>
+```python
+# Setting set
+prodi = {'manajemen', 'teknik nuklir', 'komputer'}
+nilai = {12, 13, 14}
 
-    Tipe data frozenset adalah tipe data koleksi yang mirip dengan set, yang membedakannya dengan set adalah elemen pada frozenset tidak dapat dirubah setelah frozenset dibuat.
+# Modifikasi kode
+nama_siswa.add("siskom")
+nama_siswa.remove("siskom")
+```
 
-    ```python
-    nama_siswa = frozenset(['woody', 'buzz', 'andy'])
-    nilai = frozenset([12, 13, 14])
-    ```
+<a id="10"><h3>FrozenSet | `frozenset`</h3></a>
 
-- Berupa map (kata kunci, dictionary)
+Tipe data frozenset adalah tipe data koleksi yang mirip dengan set, yang membedakannya dengan set adalah elemen pada frozenset tidak dapat diubah setelah frozenset dibuat.
 
-  - <a id="11">`dict`</a>
+```python
+nama_siswa = frozenset(['woody', 'buzz', 'andy'])
+nilai = frozenset([12, 13, 14])
+```
 
-    Tipe data dict atau dictionary adalah tipe data array dimana kunci atau **key** dari array bisa berbentuk string dan angka.
+**Berupa map (kata kunci, dictionary)**
 
-    ```python
-    hari = {
-        "sen": "senin",
-        "sel": "selasa",
-        "rab": "rabu"
-    }
-    ```
+<a id="11"><h3>Dictionary | `dict`</h3></a>
 
-- Berupa tipe data binary (bytes, bytearray, memmoryview)
+Tipe data dict atau dictionary adalah tipe data array di mana kunci atau **key** dari array bisa berbentuk string dan angka.
 
-  - <a id="12">`bytes`</a>
+```python
+hari = {
+    "monday": "senin",
+    "tuesday": "selasa",
+    "wednesday": "rabu"
+}
+```
 
-    Merupakan sebuah object tipe data yang berisikan array tunggal.
+**Berupa tipe data biner (bytes, bytearray, memoryview)**
 
-    ```python
-    angka_saya = bytes(12)
-    angka_saya1 = bytes(300)
-    ```
+<a id="12"><h3>Bytes | `bytes`</h3></a>
 
-  - <a id="13">`bytearray`</a>
+Merupakan sebuah objek tipe data yang berisikan array tunggal.
 
-    Merupakan seubah object tipe data yang berisikan array byte tunggal yang tidak dapat dirubah.
+```python
+number = bytes(12)
+number2 = bytes(300)
+```
 
-    ```python
-    angka_saya = bytearray(12)
-    ```
+<a id="13"><h3>ByteArray | `bytearray`</h3></a>
 
-  - <a id="14">`memoryview`</a>
+Merupakan sebuah objek tipe data yang berisikan array byte tunggal yang tidak dapat diubah.
 
-    Memmoryview adalah cara aman untuk mengekspos protokol buffer dengan python. Ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan. Memmoryview mengambalikan fungsi tampilan memori daripada objek yang diberikan.
+```python
+angka_saya = bytearray(12)
+```
 
-    ```python
-    angka_saya = memoryview(bytes(12))
-    angka_saya1 = memoryview(bytes(1212))
-    ```
+<a id="14"><h3>MemoryView | `memoryview`</h3></a>
+
+Memoryview adalah cara aman untuk mengekspos protokol buffer dengan Python. Ini memungkinkan untuk mengakses buffer internal suatu objek dengan membuat objek tampilan. Memoryview mengembalikan fungsi tampilan memori daripada objek yang diberikan.
+
+```python
+angka_saya = memoryview(bytes(12))
+angka_saya1 = memoryview(bytes(1212))
+```
 
 <a id="15"><h2>Video penjelasan tentang tipe data</h2></a>
 
 <center>
 <a href="https://youtu.be/ppsCxnNm-JI">
-  <img src="https://img.youtube.com/vi/ppsCxnNm-JI/hqdefault.jpg" 
-       alt="Data Types in Python" width="600">
+<img src="https://img.youtube.com/vi/ppsCxnNm-JI/hqdefault.jpg"
+alt="Data Types in Python" width="600">
 </a>
-
-
-
 </center>
 
-<a id="16"><h2>Hands-on</h2></a>
+<a id="16"><h2>Hands-On</h2></a>
 
-Klik link ini untuk mencoba kode python dari pembahasan kali ini. [Source code](../02_tipe_data/tipe_data.py)
+Klik link ini untuk mencoba kode Python dari pembahasan kali ini. [Source code](../tipe_data/tipe_data.py)
 
-<div style = "display: flex;justify-content: space-between;">
-
-<div>
-<a href="../01_introduction">[Introduction] ◀ Materi Sebelumnya</a>
-</div>
-
-<div><a href="../03_variable">Materi Selanjutnya ▶ [variable]</a></div>
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <a href="../01_introduction">[Introduction] ◀ Materi Sebelumnya</a>
+  </div>
+  <div>
+    <a href="../03_variable">Materi Selanjutnya ▶ [Variable]</a>
+  </div>
 </div>

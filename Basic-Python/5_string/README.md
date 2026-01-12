@@ -1,6 +1,7 @@
 # String Python
+<center>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPHD9iTWwYDqCIDxU-GiuckH6_kqyyPJc9Pg&s">
-
+</center>
 ## Daftar Isi
 
 - [Pendahuluan](#pendahuluan)
@@ -263,4 +264,11 @@ print("'Smith' in name:", "Smith" in name)             # False
 
 ## Materi Selanjutnya
 
-**[Input Output →](../06_input_output)**
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <a href="../4_operator">[operator] ◀ Materi Sebelumnya</a>
+  </div>
+  <div>
+    <a href="../6_input_output">Materi Selanjutnya ▶ [string]</a>
+  </div>
+</div>

@@ -36,7 +36,7 @@ def informasiMahasiswa():
     print("======= Informasi Mahasiswa =======")
     for i in range(len(mahasiswa["namaLengkap"])):
         print("====== Mahasiswa ke-" + str(i+1) + " ======")
-        print(f"Nama Lengkap : {mahasiswa['namaLengkap'][i]}")
+        print(f"Nama Lengkap : {mahasiswa['namaLengkap'][i]}") 
         print(f"Nama Depan : {mahasiswa['namaDepan'][i]}")
         print(f"Nama Belakang : {mahasiswa['namaBelakang'][i]}")
         print(f"Prodi : {mahasiswa['prodi'][i]}")
@@ -45,9 +45,10 @@ def informasiMahasiswa():
         print(f"ID Mahasiswa : {mahasiswa['idMahasiswa'][i]}")
         print("==================================")
 
+# menambahkan data di akhir list 
 def tambahMahasiswa(nama, prodi, nim, tanggalLahir):
-    mahasiswa["namaLengkap"].append(nama)
-    mahasiswa["prodi"].append(prodi)
+    mahasiswa["namaLengkap"].append(nama) 
+    mahasiswa["prodi"].append(prodi) 
     mahasiswa["nim"].append(nim)
     mahasiswa["tanggalLahir"].append(tanggalLahir)
     print("Mahasiswa berhasil ditambahkan.")

@@ -146,6 +146,6 @@ Karena terdapat kesalahan di dalam `try`, maka ditangani di dalam `except`. Kemu
     <a href="../10_list_tuple">[list_tuple] ◀ Materi Sebelumnya</a>
   </div>
   <div>
-    <a href="../12_module ">Materi Selanjutnya ▶ [module]</a>
+    <a href="../12_module">Materi Selanjutnya ▶ [module]</a>
   </div>
 </div>

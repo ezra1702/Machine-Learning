@@ -72,6 +72,6 @@ Output:
     <a href="../11_exception">[exception] ◀ Materi Sebelumnya</a>
   </div>
   <div>
-    <a href="../13_module">Materi Selanjutnya ▶ [math_module]</a>
+    <a href="../13_math_module">Materi Selanjutnya ▶ [math_module]</a>
   </div>
 </div>

@@ -22,8 +22,8 @@ y_sin = sinus(a=2, k=1, b=0, c=0, x=x)
 y_cos = cosinus(a=2, k=1, b=0, c=0, x=x)
 
 plt.grid()
-plt.plot(x, y_sin, color="red", marker=".", label="Sinus", linestyle="--")
-plt.plot(x, y_cos, color="blue", marker="s", label="Cosinus")
+plt.plot(x, y_sin, color="red", marker=".", linestyle="--")
+plt.plot(x, y_cos, color="blue", marker="s" )
 plt.legend()
 plt.show()
 
